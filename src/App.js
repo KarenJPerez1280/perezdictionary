@@ -16,7 +16,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className='footer'>
-          karen
+          This project was coded by Karen Perez, and is open-source code on {" "}
+          <a
+            className="link"
+            href="https://github.com/KarenJPerez1280/perezdictionary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+
         </footer>
       </div>
     </div>

@@ -1,4 +1,10 @@
 .Dictionary {
-    font-style: italic;
-    color: blue;
+    display: block;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.engine {
+    display: block;
+    margin: 0 auto;
 }

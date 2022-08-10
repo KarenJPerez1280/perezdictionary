@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
+import "./Dictionary.css";
 
 export default function Results(props) {
 
@@ -8,7 +9,7 @@ export default function Results(props) {
         return (
             <div className="Results">
                 <section>
-                    <h1>
+                    <h1 className="Word">
                         {props.results.word}
                     </h1>
 

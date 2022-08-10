@@ -1,7 +1,16 @@
 body {
-    background-color: rgb(195, 209, 215);
+    background-color: rgb(251, 253, 254);
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 960px;
+    min-width: fit-content;
 }
 
+.Dictionary {
+    margin-bottom: 50px;
+    display: block;
+    margin: auto;
+}
 
 .footer {
     color: black;

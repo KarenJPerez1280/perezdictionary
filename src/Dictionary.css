@@ -1,16 +1,38 @@
 .Dictionary section {
-    background: rgb(133, 157, 162);
+    background: rgb(236, 238, 238);
     padding: 30px;
     border-radius: 6px;
-    box-shadow: 0 10px 10px green;
-    margin: 20px 0;
+    font-family: 'Handlee', cursive;
+    box-shadow: 0 10px 10px rgb(205, 207, 205);
+    margin: 15px;
+}
+
+.Title {
+    font-size: 25px;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
 }
 
 .Dictionary input {
-    color: red;
+    color: rgb(81, 81, 98);
+}
+
+.Word {
+    color: rgb(33, 33, 36);
+    margin-bottom: 20px;
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .engine {
     display: block;
+    font-family: 'Handlee', cursive;
     margin: 0 auto;
+    font-size: 20px;
+}
+
+.Definition {
+    font-size: 20px;
+
 }

@@ -13,7 +13,7 @@ export default function App() {
 
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="love" />
         </main>
         <footer className='footer'>
           This project was coded by Karen Perez, and is open-source code on {" "}

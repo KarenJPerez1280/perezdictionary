@@ -1,7 +1,13 @@
-.Dictionary {
-    display: block;
-    padding-top: 50px;
-    margin: 0 auto;
+.Dictionary section {
+    background: rgb(133, 157, 162);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 10px green;
+    margin: 20px 0;
+}
+
+.Dictionary input {
+    color: red;
 }
 
 .engine {

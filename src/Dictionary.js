@@ -25,11 +25,12 @@ export default function Dictionary(props) {
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
         axios.get(apiUrl).then(handleResponseDictionary);
 
-        let pexelsApiKey = "563492ad6f91700001000001c6a65a7fbce74795afea55dae492eca1";
+        let pexelsApiKey =
+            "563492ad6f91700001000001c6a65a7fbce74795afea55dae492eca1";
         let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
-        axios.get(pexelsApiUrl, { headers: { "Authorization": `Bearer${pexelsApiKey}` } }).then(handleResponsePexels);
+        let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+        axios.get(pexelsApiUrl, { headers: headers }).then(handleResponsePexels);
     }
-
     function handleSubmit(event) {
         event.preventDefault();
 
@@ -52,7 +53,7 @@ export default function Dictionary(props) {
                     <h1 className="Title">
                         What word do you want to look up?
                     </h1>
-                    <form onSubmit={handleSubmit} >
+                    <form onSubmit={handleSubmit} className="engine" >
                         <input type="search" onChange={handleKeywordChange} className="engine" />
 
                     </form>

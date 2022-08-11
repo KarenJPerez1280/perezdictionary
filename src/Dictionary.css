@@ -33,6 +33,37 @@
 }
 
 .Definition {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 
+}
+
+.DefinitionDef {
+    font-size: 18px;
+}
+
+.ExampleDef {
+    color: rgb(109, 109, 125);
+}
+
+.Synonyms {
+    font-size: 18px;
+}
+
+.Synonyms li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.Syn {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 0px;
 }

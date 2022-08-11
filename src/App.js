@@ -24,7 +24,16 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            Github {" "}
+          </a>
+          and {""}
+          <a
+            className="link"
+            href="https://main--glowing-mandazi-ab3ad3.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netifly
           </a>
 
         </footer>
